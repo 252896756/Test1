@@ -12,7 +12,7 @@ import java.util.List;
 public interface ItemsDao {
 
     @Select("SELECT * FROM items")
-    public List<Items> findAll();
+    public List<Items> findAllbbbbbasdbb();
 
     @Select("SELECT * FROM items WHERE id=#{id}")
     public Items findById(String id);
